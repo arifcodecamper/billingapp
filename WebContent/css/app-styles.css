@@ -1,0 +1,146 @@
+
+body {
+	background-color: #666666;	
+}
+
+.editable {
+	height : 45px;
+	padding: 5px 10px 5px 10px;
+}
+
+.editable input{
+	border-style : none;
+	outline : 0px none #000;
+	background-color: inherit;
+}
+
+.editable input:focus {
+	border : 1px solid #9999ff;
+	width: 100%;
+}
+
+.field-unsaved {
+	border : 1px solid red;
+	width: 100%;
+}
+
+.new-record {
+	background-color : cyan;
+}
+
+.table-data-container {
+	display:none;
+	overflow-y: auto;
+	padding: 20px;
+	height: 350px;
+}
+
+.align-right{
+	text-align:right;
+	
+}
+
+.align-left{
+	text-align:left;
+	padding:0;
+	margin:0;
+}
+
+.input-text-plain {
+	border-style: none;
+	outline: 0px none #000;
+	background-color: inherit;
+	width: 100%;
+	background-color: #eef;
+	margin-bottom: 5px;
+	padding : 1px 5px;
+	color: #222;
+}
+
+/* Table */
+
+table ,tr {
+    border:none; 
+}
+ table thead tr th:not(.not-this) {
+	width: 90px;
+}
+
+table tbody tr th {
+	 width: 90px; 
+}
+
+table tbody tr td {
+	text-align: center;
+}
+
+/* table tbody tr td input {
+	text-align: center;
+} */
+
+table tbody tr th {
+	text-align: center;
+}
+
+table thead tr th {
+	text-align: center;
+}
+
+table tbody tr td:not(.not-this) {
+	 width: 90px; 
+}
+tbody {
+    display:block;
+    padding: 0 !important;
+    overflow:auto;
+}
+
+tbody td {
+    text-align: left;
+}
+thead, tbody tr {
+    display:table;
+    width:100%;
+    table-layout:fixed;/* even columns width , fix width of table too*/
+}
+
+.editable input.invoice {
+		width: 100%;
+	text-align: center;
+}
+
+
+
+#rowWithTax {
+	background-color: #ff9999;
+}
+
+#rowWithTax th {
+	text-align : left;
+}
+
+#rowWithTax td {
+	font-weight: bold;
+	text-align: right;
+	padding-right: 30px;
+}
+
+#rowWithTotal {
+	background-color: orange;
+}
+#rowWithTotal th {
+	text-align : left;
+}
+
+#rowWithTotal td {
+	font-weight: bold;
+	text-align: right;
+	padding-right: 30px;
+}
+/* thead {
+    width: calc( 100% - 1em )scrollbar is average 1em/16px width, remove it from thead width
+} */
+
+.invoice {
+	width: 100%;
+}
