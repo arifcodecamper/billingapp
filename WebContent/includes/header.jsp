@@ -1,9 +1,9 @@
 <html>
 <head>
-<title> Sofiya Agencies - Billing System </title>
+<title> Billing System </title>
 
 <% 
-String baseURL = "/billing/";
+String baseURL = "/billingapp/";
 %>
 
 <link rel="stylesheet" href="<%=baseURL%>css/bootstrap-4.0.0-alpha.6.min.css">

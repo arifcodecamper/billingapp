@@ -83,7 +83,7 @@ $(document).ready(function(){
 var tabIndex = 1;
 
 function loadStock() {
-	var getPageURL = '/sofiya-agencies/get-stocks';
+	var getPageURL = jsVarbaseURL + '/get-stocks';
 	var getRecordCountURL = '<%=baseURL%>get-stocks-count';
 	paginationObject = new Paginator();
 	console.log("Paginator initialized : " + paginationObject);
